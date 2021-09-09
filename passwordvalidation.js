@@ -1,4 +1,4 @@
-"use strict";
+//"use strict";
 //Converts a given string (single word), test if valid password
 function validatePassword(word) {
     return /[a-z]/.test(word) && // A lowercase letter
@@ -7,4 +7,4 @@ function validatePassword(word) {
         word.length >= 8 && // At least 8 characters
         /\s/.test(word) == false; // An no spaces!
 }
-module.exports = validatePassword;
+module.exports =  validatePassword ;
